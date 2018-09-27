@@ -225,7 +225,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Generate Jellyfish Figure 9.")
     parser.add_argument('--debug', help='pins RNG and allows debug output', action='store_true')
-    parser.add_argument('--servers', help='Number of servers', default=32, type=int)
+    parser.add_argument('--servers', help='Number of servers', default=20, type=int)
     parser.add_argument('--switches', help='Number of switches', default=32, type=int)
     parser.add_argument('--ports', help='Number of ports per switch', default=6, type=int)
     parser.add_argument('--pickle', help='Topology pickle output path (should be relative to top-level repo dir)', default='pox/pox/ext/test_topo.pickle')
